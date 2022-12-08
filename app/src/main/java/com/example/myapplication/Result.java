@@ -21,13 +21,13 @@ public class Result extends AppCompatActivity {
     }
 
     public void backgame(View v){
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
     public void send(View v)
     {
-        Intent intent = new Intent(this,email.class);
+        Intent intent = new Intent(this, Email.class);
         startActivity(intent);
     }
 }
